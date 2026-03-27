@@ -1,6 +1,6 @@
 # 💱 Currency Converter
 
-A responsive currency converter with real-time exchange rates, theme switching, and mobile-friendly design.
+A responsive currency converter with real-time exchange rates, Update flag, theme switching, and mobile-friendly design.
 
 website : https://magicanime709-dev.github.io/Exchange-Currency-Rate/
 
@@ -9,9 +9,9 @@ website : https://magicanime709-dev.github.io/Exchange-Currency-Rate/
 - **Real-time rates** - Fetches live data using 2 APIs with async/await
 - Api used (flag) : https://flagsapi.com/BD/flat/64.png
 - Api used (currency) : https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies
-  
 - **3 Themes** - Default, Cyberpunk, and Olive themes
 - **Responsive** - Works on mobile, tablet, and desktop
+- **Update flags** - One-click update flags
 - **Swap currencies** - One-click currency exchange
 
 ## 🛠️ Tech Stack
