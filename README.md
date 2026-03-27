@@ -2,7 +2,7 @@
 
 A responsive currency converter with real-time exchange rates, theme switching, and mobile-friendly design.
 
-![Demo](https://via.placeholder.com/800x400?text=Currency+Converter)
+https://magicanime709-dev.github.io/Exchange-Currency-Rate/
 
 ## ✨ Features
 
