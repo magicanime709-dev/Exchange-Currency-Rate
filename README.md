@@ -2,7 +2,7 @@
 
 A responsive currency converter with real-time exchange rates, theme switching, and mobile-friendly design.
 
-website: https://magicanime709-dev.github.io/Exchange-Currency-Rate/
+website : https://magicanime709-dev.github.io/Exchange-Currency-Rate/
 
 ## ✨ Features
 
@@ -22,4 +22,6 @@ website: https://magicanime709-dev.github.io/Exchange-Currency-Rate/
 
 ## Upcoming
 - I plan to add more currencies, btc, dodge etc
-  
+
+## Working demo:
+https://github.com/user-attachments/assets/07571293-767b-45da-83c5-3234773f465f
