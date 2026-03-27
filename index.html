@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Currency Converter</h2>
+            <select id="themeSwitcher">
+                <option value="default">Default</option>
+                <option value="cyber">Cyberpunk</option>
+                <option value="olive">Olive</option>
+            </select>
+        </div>
+
+        <form>
+            <!-- Amount Input -->
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1" />
+            </div>
+
+            <!-- Option Container -->
+            <div class="dropdown">
+                <!-- From Side -->
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="img" />
+                        <select name="from"></select>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <!-- To Side -->
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png" alt="img" />
+                        <select name="to"></select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Output -->
+            <div class="date"></div>
+            <div class="msg"></div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
